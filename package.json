@@ -4,8 +4,8 @@
   "description": "Funny Drum Machine on Web",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
+    "start": "webpack-dev-server --env.mode development",
+    "build": "webpack --env.mode development"
   },
   "repository": {
     "type": "git",
