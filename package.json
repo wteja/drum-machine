@@ -1,0 +1,44 @@
+{
+  "name": "drum-machine",
+  "version": "1.0.0",
+  "description": "Funny Drum Machine on Web",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wteja/drum-machine.git"
+  },
+  "keywords": [
+    "drum",
+    "machine"
+  ],
+  "author": "Weerayut Teja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wteja/drum-machine/issues"
+  },
+  "homepage": "https://github.com/wteja/drum-machine#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "react-hot-loader": "^4.12.18",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
